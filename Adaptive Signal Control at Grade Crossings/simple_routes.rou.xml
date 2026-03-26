@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="17.88" guiShape="passenger"/>
+    
+    <!-- Simple routes using only valid edges -->
+    <route id="route1" edges="-19448704#0 -19448704#1 -19448698"/>
+    <route id="route2" edges="-19448298 -19448306#0 -19448306#1"/>
+    <route id="route3" edges="-1347512023#0 -1347512023#1 -1347512024"/>
+    
+    <!-- Generate random traffic flows -->
+    <flow id="f_route1" begin="0" end="3600" vehsPerHour="30" route="route1" type="car"/>
+    <flow id="f_route2" begin="0" end="3600" vehsPerHour="25" route="route2" type="car"/>
+    <flow id="f_route3" begin="0" end="3600" vehsPerHour="20" route="route3" type="car"/>
+</routes>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Vehicle Types -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="17.88" guiShape="passenger"/>
+    <vType id="DEFAULT_RAILTYPE" length="2286.00" desiredMaxSpeed="8.94" vClass="rail"/>
+    <flow id="f_route1" begin="0.00" from="19448704#00" to="634020683" via="683562137#1 683562137#2" end="3600.00" vehsPerHour="27" type="car"/>
+    <flow id="f_route2" begin="0.00" from="39447439#0" to="634020683" via="39447439#1 683562128 683562137#0 683562137#1 683562137#2" end="3600.00" vehsPerHour="250" type="car"/>
+    <flow id="f_route3" begin="0.00" from="-19470790#0" to="-1346082739" via="935204071#1 -1347512024 -1347512023#1 -1347512023#0" end="3600.00" vehsPerHour="25" type="car"/>
+    <flow id="f_route4" begin="0.00" from="245915228#1" to="-19468172" via="-245915228#2" end="3600.00" vehsPerHour="77" type="car"/>
+    <flow id="f_route5" begin="0.00" from="340808718#10.50" to="-634020683" via="683562137#2 -1346082739" end="3600.00" vehsPerHour="22" type="car"/>
+    <flow id="f_route6" begin="0.00" from="634020673#0" to="-340808718#1" via="-340808718#0 E0 E0.79 1346606197 245915228#0 245915228#1 245915228#2 245915228#3 245915228#4 -1346338965 -1346082738#3 -1346082738#2 -1346082738#1 E1 E1.78 -1347512024 -1347512023#1 -1347512023#0 -1346082739 -340808718#10 -340808718#100 -340808718#9 -340808718#8 -340808718#7 -340808718#6 -340808718#5 -340808718#4 -340808718#3 -340808718#2" end="3600.00" vehsPerHour="22" type="car"/>
+    <flow id="f_train1" type="DEFAULT_RAILTYPE" begin="1200.00" from="832911536#0" to="832911536#1" end="1200.00" number="1"/>
+    <flow id="f_train2" type="DEFAULT_RAILTYPE" begin="2400.00" from="832911536#0" to="832911536#1" end="2400.00" number="1"/>
+    <flow id="f_train3" type="DEFAULT_RAILTYPE" begin="3600.00" from="832911536#0" to="832911536#1" end="3600.00" number="1"/>
+</routes>
